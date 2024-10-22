@@ -15,8 +15,8 @@ urlpatterns = [
     
     path('customer-dashboard',views.customer_dashboard,name="customer-dashboard"),
     path('admin-dashboard',views.admin_dashboard,name="admin-dashboard"),
-    path('admin',views.list_admin,name="admin list"),
-    path('admin/create',views.create_admin,name="admin create"),
+    path('admin',views.list_admin,name="list admin"),
+    path('admin/create',views.create_admin,name="create admin"),
     path('admin/<uuid:staff_id>',views.show_admin,name="show admin"),
     path('admin/<uuid:staff_id>/edit',views.edit_admin,name="edit admin"),
     path('admin/<uuid:staff_id>/delete',views.delete_admin,name="delete admin"),
