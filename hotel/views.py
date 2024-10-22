@@ -32,6 +32,8 @@ def checkout_room(request):
 
 
 
+
+
 def customer_dashboard(request):
     pass
 
